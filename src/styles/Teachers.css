@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.teacher img {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+
+.teacher h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.teacher p {
+    font-size: 20px;
+    line-height: 1.5;
+}
