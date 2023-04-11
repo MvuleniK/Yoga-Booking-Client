@@ -56,15 +56,6 @@ function BookYogaClass(props) {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    // const data = {
-    //   name: yoga_class.name,
-    //   email: yoga_class.email,
-    //   classTeacher: yoga_class.classTeacher,
-    //   phoneNumber: yoga_class.phoneNumber,
-    //   class_date: yoga_class.class_date,
-    //   class_booked: yoga_class.className, 
-    // };
-
     setYogaBooking({
       name: yoga_class.name,
       email: yoga_class.email,
@@ -74,15 +65,6 @@ function BookYogaClass(props) {
       class_booked: yoga_class.className, 
     });
 
-
-    // axios
-    //   .put(`http://localhost:8082/api/classes/${id}`, data)
-    //   .then((res) => {
-    //     navigate(`/show-yoga_class/${id}`);
-    //   })
-    //   .catch((err) => {
-    //     console.log("Error in UpdateClassInfo!");
-    //   });
 
     console.log(yoga_bookings);
     console.log(yoga_class.name);
@@ -146,18 +128,6 @@ function BookYogaClass(props) {
                   />
                 </div>
 
-                {/* <div className="form-group">
-                  <label>Phone number</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter phone number"
-                    name="phoneNumber"
-                    value={yoga_class.phoneNumber}
-                    onChange={onChange}
-                  />
-                </div> */}
-
                 <div className="form-group">
                 <label htmlFor="className">Phone number</label>
                 <input
@@ -172,7 +142,6 @@ function BookYogaClass(props) {
 
           <p className="lead text-center">Yoga Class Details.</p>
 
-          {/* <div className="col-md-8 m-auto"> */}
               <div className="form-group">
                 <label htmlFor="className">Class Name</label>
                 <input
@@ -228,7 +197,6 @@ function BookYogaClass(props) {
                 Book Class
               </button>
             </form>
-          {/* </div> */}
         </div>
       </div>
       

@@ -19,7 +19,6 @@ const ClassCard = (props) => {
         </h2>
         <h3>{yoga_class.classTeacher}</h3>
         <p>{yoga_class.description}</p>
-        {/* <button className='book-class-btn'>Book Class</button> */}
       </div>
     </div>
 

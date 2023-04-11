@@ -28,32 +28,26 @@ function Confirm(props) {
       <table className="table table-hover table-light">
         <tbody>
           <tr>
-            {/* <th scope="row">1</th> */}
             <td>Name</td>
             <td>{yoga_class.name}</td>
           </tr>
           <tr>
-            {/* <th scope="row">2</th> */}
             <td>Email</td>
             <td>{yoga_class.email}</td>
           </tr>
           <tr>
-            {/* <th scope="row">3</th> */}
             <td>Phone number</td>
             <td>{yoga_class.phoneNumber}</td>
           </tr>
           <tr>
-            {/* <th scope="row">5</th> */}
             <td>Class Date</td>
             <td>{yoga_class.class_date}</td>
           </tr>
           <tr>
-            {/* <th scope="row">5</th> */}
             <td>Class Booked</td>
             <td>{yoga_class.class_booked}</td>
           </tr>
           <tr>
-            {/* <th scope="row">5</th> */}
             <td>Class Teacher</td>
             <td>{yoga_class.classTeacher}</td>
           </tr>

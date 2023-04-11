@@ -38,27 +38,22 @@ function ShowBookingDetails(props) {
       <table className="table table-hover table-light">
         <tbody>
           <tr>
-            {/* <th scope="row">1</th> */}
             <td>Class Name</td>
             <td>{yoga_class.className}</td>
           </tr>
           <tr>
-            {/* <th scope="row">2</th> */}
             <td>Class Teacher</td>
             <td>{yoga_class.classTeacher}</td>
           </tr>
           <tr>
-            {/* <th scope="row">3</th> */}
             <td>Class ID</td>
             <td>{yoga_class.classId}</td>
           </tr>
           <tr>
-            {/* <th scope="row">5</th> */}
             <td>Class Date</td>
             <td>{yoga_class.class_date}</td>
           </tr>
           <tr>
-            {/* <th scope="row">6</th> */}
             <td>Description</td>
             <td>{yoga_class.description}</td>
           </tr>
